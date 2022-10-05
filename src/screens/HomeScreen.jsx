@@ -1,14 +1,14 @@
 import React from "react";
+import Banner from "../components/Banner";
 import Nav from "../components/Nav";
 import "./HomeScreen.css";
 
 function HomeScreen() {
 	return (
 		<div>
-			{/* Nav */}
 			<Nav />
 
-			{/* Banner */}
+			<Banner />
 
 			{/* Row */}
 		</div>
