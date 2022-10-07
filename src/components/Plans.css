@@ -1,3 +1,8 @@
+.plans__planRenewal {
+	opacity: 0.8;
+	margin-top: 20px;
+}
+
 .plans__plan {
 	display: flex;
 	justify-content: space-between;
@@ -9,8 +14,8 @@
 	opacity: 1;
 }
 
-.plans__planInfo {
-	min-width: 400px;
+.plans__plan--disabled > button {
+	background-color: #808080 !important;
 }
 
 .plans__plan > button {

@@ -9,6 +9,7 @@ function LoginScreen() {
 		<div className="loginScreen">
 			<div className="loginScreen__background">
 				<img
+					width={150}
 					className="loginScreen__logo"
 					src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
 					alt="netflix logo"
